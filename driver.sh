@@ -9,5 +9,8 @@ cp skeleton.scf.in supercell.scf.in
 #copy content of opt.txt after line 24 of tmp
 sed -i 27rout.txt supercell.scf.in
 
-#open editor to change ,anually nat and ntypes
+#remove the out.txt file (unuseful at this point)
+rm out.txt
+
+#open editor to change manually nat, ntyps and PREFIX
 vi supercell.scf.in

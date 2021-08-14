@@ -2,8 +2,8 @@
 calculation='scf',
 restart_mode='from_scratch',
 verbosity='high',
-prefix='TiS2',
-pseudo_dir='.',
+prefix='',
+pseudo_dir='/PPs',
 outdir='.',
 /
 &system
@@ -23,7 +23,7 @@ outdir='.',
   conv_thr=1d-8,
 /
 ATOMIC_SPECIES
-Ti    47.880001 Ti.ncpp.UPF
-S     32.066002 S.ncpp.UPF
+Ti    47.880001 Ti.pbe-mt_fhi.UPF
+S     32.066002 S.pbe-hgh.UPF
 K_POINTS automatic
 12 12 4 1 1 1
