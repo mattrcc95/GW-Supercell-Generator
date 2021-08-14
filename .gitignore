@@ -1,13 +1,6 @@
-<<<<<<< HEAD
 /.vscode
 *.exe
 out.*
 /TRY_SCF
-=======
-.vscode
-*.exe
-out.*
-TRY_SCF
->>>>>>> 1da348120abae2209fd93887507520dd5d6587a6
 S.*
 Ti.*
